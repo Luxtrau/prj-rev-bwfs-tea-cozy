@@ -1,0 +1,285 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+.all {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-family: "Verdana", sans-serif;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav {
+  height: 69px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav span {
+  margin: 0 auto;
+  height: 69px;
+  font-family: Helvetica;
+  font-weight: normal;
+  display: flex;
+  font-size: 22px;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 20px;
+}
+
+.logo {
+  flex-grow: 1;
+  height: 69px;
+  margin: 0 auto;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.logo img {
+  height: 50px;
+  padding: 10px;
+}
+.main {
+  top: 69px;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  margin-bottom: 50px;
+}
+
+.main2 {
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  padding: 70px 0;
+}
+
+.main3 {
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.main4 {
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.main4 h2 {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.main4 h5 {
+  margin: 10px 0;
+  width: 100%;
+}
+.maincontent {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.maincontent2 {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.images {
+  margin-top: 30px;
+  width: 1000px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image1 {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.image1 img {
+  width: 300px;
+  height: 200px;
+}
+.image1 h4 {
+  margin-top: 10px;
+}
+.image2 h4 {
+  margin-top: 10px;
+}
+.image3 h4 {
+  margin-top: 10px;
+}
+.image4 h4 {
+  margin-top: 10px;
+}
+.image5 h4 {
+  margin-top: 10px;
+}
+.image2 {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.image2 img {
+  width: 300px;
+  height: 200px;
+}
+
+.image3 {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.image3 img {
+  width: 300px;
+  height: 200px;
+}
+
+.image4 {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.image4 img {
+  width: 300px;
+  height: 200px;
+}
+
+.image5 {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.image5 img {
+  width: 300px;
+  height: 200px;
+}
+
+.main3 h2 {
+ width: 100%;
+ margin: 0;
+ text-align: center;
+}
+
+.box1 {
+  margin: 0;
+  width: 300px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.box2 {
+  margin: 0;
+  width: 300px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.box3 {
+  margin: 0;
+  width: 300px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  width: 100%;
+  padding-left: 20px;
+  text-align: left;
+}
